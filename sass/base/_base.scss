@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  // transition: 0.3s;
+}
+
+ul,
+li,
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Aleo', sans-serif;
+  color: $color-brand-secondary;
+  scroll-behavior: smooth;
+}
+
+body {
+	background-color: #F8F8F8;
+  font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+  height: 100%;
+
+  &__wrapper {
+    max-width: 1440px;
+  }
+}
+
+button {
+	border: none;
+}

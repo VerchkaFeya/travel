@@ -1,0 +1,42 @@
+.preview {
+	// height: 765px;
+	font-family: 'Aleo', serif;
+	padding: 0 0 254px 0;
+	// background-image: url('./assets/img/preview-background.jpg');
+	// background-position: bottom;
+	// background-size: 100% auto;
+
+	&__content {
+		max-width: 892px;
+		padding: 32px 0 0 0;
+	}
+
+	&__title {
+		color: $color-text-light;
+		font-size: 8rem;
+		line-height: 9.6rem;
+		font-weight: 700;
+	}
+	
+	&__subtitle {
+		color: $color-text-light;
+		font-style: italic;
+		margin: 0 0 46px 0;
+	}
+}
+
+.start-planning {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 18px 18px 18px 41px;
+	border-radius: 1.6rem;
+	background-color: rgba(255, 255, 255, 0.7);
+
+	&__question {
+		color: $color-brand-main;
+		font-style: italic;
+		font-size: 2.4rem;
+	}
+}

@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+}
+
+ul,
+li,
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Aleo", sans-serif;
+  color: #0D606F;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8F8F8;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  height: 100%;
+}
+body__wrapper {
+  max-width: 1440px;
+}
+
+button {
+  border: none;
+}
+
+.button {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.175rem;
+  color: #fff;
+  height: 59px;
+  padding: 1.35rem 3.25rem 1.35rem 3.25rem;
+  background-color: #0D606F;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 0 30px 0 30px;
+}
+
+.header {
+  height: 90px;
+  background-color: rgba(242, 120, 92, 0.7);
+  background-position: top;
+  background-size: 100% auto;
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  color: #fff;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+}
+.header__button {
+  font-size: 1.6rem;
+  line-height: 2.117rem;
+  height: 41px;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.preview {
+  font-family: "Aleo", serif;
+  padding: 0 0 254px 0;
+}
+.preview__content {
+  max-width: 892px;
+  padding: 32px 0 0 0;
+}
+.preview__title {
+  color: #fff;
+  font-size: 8rem;
+  line-height: 9.6rem;
+  font-weight: 700;
+}
+.preview__subtitle {
+  color: #fff;
+  font-style: italic;
+  margin: 0 0 46px 0;
+}
+
+.start-planning {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 18px 18px 18px 41px;
+  border-radius: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.start-planning__question {
+  color: #F2785C;
+  font-style: italic;
+  font-size: 2.4rem;
+}
+
+.section-title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo__svg {
+  width: 3rem;
+  height: 3rem;
+}
+.logo__name {
+  margin-left: 0.6rem;
+  font-family: "Magra";
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 3.9rem;
+}
+
+.nav__list {
+  display: flex;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+}
+.nav__item:not(:first-child) {
+  padding-left: 4.2rem;
+}
+.nav__link {
+  text-transform: capitalize;
+}
+
+.header-view-wrapper {
+  background-image: url("./assets/img/preview-background.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

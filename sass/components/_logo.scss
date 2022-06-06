@@ -1,0 +1,19 @@
+.logo {
+	display: flex;
+	justify-content: flex-start;
+
+	&__svg {
+		width: 3rem;
+		height: 3rem;
+
+	}
+
+	&__name {
+		margin-left: 0.6rem;
+		font-family: 'Magra';
+		font-size: 3.2rem;
+		font-weight: 600;
+		line-height: 3.9rem;
+	}
+
+}
