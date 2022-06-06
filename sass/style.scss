@@ -11,11 +11,13 @@
 @import "layout/wrapper";
 @import "layout/header";
 @import "layout/preview";
+@import "layout/steps";
 
 // components
 @import "components/section-title";
 @import "components/logo";
 @import "components/nav";
+@import "components/step";
 
 .header-view-wrapper {
 	background-image: url('./assets/img/preview-background.jpg');

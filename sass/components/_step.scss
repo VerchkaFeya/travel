@@ -1,0 +1,17 @@
+.step {
+
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+
+	&__svg {
+		width: 100px;
+		height: 100px;
+		margin: 0 auto;
+	}
+
+	&__text {
+		text-align: center;
+	}
+
+}
