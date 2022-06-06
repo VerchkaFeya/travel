@@ -1,0 +1,1 @@
+This is landing page for RS School task. 
