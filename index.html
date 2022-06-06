@@ -11,40 +11,40 @@
 	<title>Travel Portal</title>
 </head>
 <body>
-	<div class="header-view-wrapper">
-		<header class="header">
-			<div class="header__wrapper wrapper">
-				<a href="#" class="logo">
-					<object type="image/svg+xml" data="./assets/icons/logo.svg" class="logo__svg">
-						Your browser does not support SVG
-					</object>
-					<p class="logo__name">Travel Portal</p>
-				</a>
-				<nav class="header__nav nav">
-					<ul class="nav__list">
-						<li class="nav__item"><a href="#" class="nav__link">How it works</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Plan your trip</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Travel stories</a></li>
-					</ul>
-				</nav>
-				<button class="header__button button">Login</button>
-			</div>
-		</header>
-		<section class="preview">
-			<div class="preview__wrapper wrapper">
-				<div class="preview__content">
-					<h1 class="preview__title">Explore the beauty of<br>the World</h1>
-					<p class="preview__subtitle">Recieve personalized recommendations for countries, hotels, activities and more</p>
-					<div class="preview__start-planning start-planning">
-						<p class="start-planning__question">What would you like to do?</p>
-						<button class="start-planning__button button">Start planning</button>
+	<main class="main">
+		<div class="background-wrapper_header">
+			<header class="header">
+				<div class="header__wrapper wrapper">
+					<a href="#" class="logo">
+						<object type="image/svg+xml" data="./assets/icons/logo.svg" class="logo__svg">
+							Your browser does not support SVG
+						</object>
+						<p class="logo__name">Travel Portal</p>
+					</a>
+					<nav class="header__nav nav">
+						<ul class="nav__list">
+							<li class="nav__item"><a href="#" class="nav__link">How it works</a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Plan your trip</a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
+							<li class="nav__item"><a href="#" class="nav__link">Travel stories</a></li>
+						</ul>
+					</nav>
+					<button class="header__button button">Login</button>
+				</div>
+			</header>
+			<section class="preview">
+				<div class="preview__wrapper wrapper">
+					<div class="preview__content">
+						<h1 class="preview__title">Explore the beauty of<br>the World</h1>
+						<p class="preview__subtitle">Recieve personalized recommendations for countries, hotels, activities and more</p>
+						<div class="preview__start-planning start-planning">
+							<p class="start-planning__question">What would you like to do?</p>
+							<button class="start-planning__button button">Start planning</button>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-	</div>
-	<main class="main">
+			</section>
+		</div>
 		<section class="steps">
 			<h2 class="section-title">3 STEPS TO THE PERFECT TRIP</h2>
 			<div class="wrapper">
@@ -73,89 +73,123 @@
 		<section class="destinations">
 			<h2 class="section-title">POPULAR DESTINATIONS</h2>
 			<div class="destinations__slider slider">
-				<div class="slider__slides"></div>
-				<div class="slider__controls"></div>
-			</div>
-			<button class="destination__button button button_arrow">Find more</button>
-		</section>
-		<section class="stories">
-			<h2 class="section-title">TRAVEL STORIES</h2>
-			<div class="wrapper">
-				<div class="stories__content">
-					<div class="stories__story story">
-						<img class="story__photo story__photo_thai" alt="Thailand">
-						<div class="story__text-content">
-							<h3 class="story__title">10 Photos of Attractive Thailand</h3>
-							<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-								velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-								sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
-								consectetur adipiscing elit...
-							</p>
-							<a class="story__read-more">Read More</a>
-						</div>
+				<div class="slider__slides">
+					<div class="slider__slide slide slide_spain">
+						<p class="slide__title">Spain</p>
 					</div>
-					<div class="stories__story story">
-						<img class="story__photo story__photo_utah" alt="Utah">
-						<div class="story__text-content">
-							<h3 class="story__title">Canyonlands National Park, Utah</h3>
-							<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-								velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-								sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
-								consectetur adipiscing elit...
-							</p>
-							<a class="story__read-more">Read More</a>
-						</div>
+					<div class="slider__slide slide slide_japan">
+						<p class="slide__title">Japan</p>
 					</div>
-					<div class="stories__story story">
-						<img class="story__photo story__photo_nountains" alt="Mountains">
-						<div class="story__text-content">
-							<h3 class="story__title">I left my heart in the Mountains!</h3>
-							<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-								velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-								sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
-								consectetur adipiscing elit...
-							</p>
-							<a class="story__read-more">Read More</a>
-						</div>
-					</div>
-					<div class="stories__story story">
-						<img class="story__photo story__photo_journey" alt="Journey">
-						<div class="story__text-content">
-							<h3 class="story__title">10 Photos of Attractive Thailand</h3>
-							<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-								velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-								sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
-								consectetur adipiscing elit...
-							</p>
-							<a class="story__read-more">Read More</a>
-						</div>
+					<div class="slider__slide slide slide_usa">
+						<p class="slide__title">USA</p>
 					</div>
 				</div>
-				<button class="stories__button button button_arrow">See more</button>
+				<div class="slider__controls"></div>
 			</div>
+			<button class="destinations__button button button_arrow">Find more</button>
 		</section>
-	</main>
-	<footer class="footer">
-		<p class="footer__copyright">All Rights Reserved © Travel Portal</p>
-		<div class="footer__social">
-			<ul class="social-list">
-				<li class="social-list__item"><a class="social-list__link"></a></li>
-				<li class="social-list__item"><a class="social-list__link"></a></li>
-				<li class="social-list__item"><a class="social-list__link"></a></li>
-			</ul>
+		<div class="background-wrapper_stories-and-footer">
+			<section class="stories">
+				<h2 class="section-title">TRAVEL STORIES</h2>
+				<div class="background-wrapper_stories">
+					<div class="wrapper">
+						<div class="stories__content">
+							<div class="stories__story story">
+								<div class="story__photo story__photo_thai"></div>
+								<div class="story__text-content">
+									<h3 class="story__title">10 Photos of Attractive Thailand</h3>
+									<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+										velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+										sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
+										consectetur adipiscing elit...
+									</p>
+									<a class="story__read-more">Read More</a>
+								</div>
+							</div>
+							<div class="stories__story story">
+								<div class="story__photo story__photo_utah"></div>
+								<div class="story__text-content">
+									<h3 class="story__title">Canyonlands National Park, Utah</h3>
+									<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+										velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+										sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
+										consectetur adipiscing elit...
+									</p>
+									<a class="story__read-more">Read More</a>
+								</div>
+							</div>
+							<div class="stories__story story">
+								<div class="story__photo story__photo_mountains"></div>
+								<div class="story__text-content">
+									<h3 class="story__title">I left my heart in the Mountains!</h3>
+									<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+										velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+										sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
+										consectetur adipiscing elit...
+									</p>
+									<a class="story__read-more">Read More</a>
+								</div>
+							</div>
+							<div class="stories__story story">
+								<div class="story__photo story__photo_journey"></div>
+								<div class="story__text-content">
+									<h3 class="story__title">The Longest journey in my life!</h3>
+									<p class="story__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+										velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+										sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, 
+										consectetur adipiscing elit...
+									</p>
+									<a class="story__read-more">Read More</a>
+								</div>
+							</div>
+						</div>
+						<button class="stories__button button button_arrow">See more</button>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="footer__wrapper wrapper">
+					<p class="footer__copyright">All Rights Reserved © Travel Portal</p>
+					<div class="footer__social">
+						<ul class="social-list">
+							<li class="social-list__item">
+								<a href="#" class="social-list__link">
+									<object type="image/svg+xml" data="./assets/icons/instagram.svg" class="social-list__svg">
+									Your browser does not support SVG
+									</object>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a href="#" class="social-list__link">
+									<object type="image/svg+xml" data="./assets/icons/youtube.svg" class="social-list__svg">
+										Your browser does not support SVG
+									</object>
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a href="#" class="social-list__link">
+									<object type="image/svg+xml" data="./assets/icons/twitter.svg" class="social-list__svg">
+										Your browser does not support SVG
+									</object>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
 		</div>
-	</footer>
+	</main>
 </body>
 </html>

@@ -1,5 +1,6 @@
-// constants
+// abstracts
 @import "abstract/constants";
+@import "abstract/placeholders";
 
 // base
 @import "base/base";
@@ -12,15 +13,17 @@
 @import "layout/header";
 @import "layout/preview";
 @import "layout/steps";
+@import "layout/destinations";
+@import "layout/stories";
+@import "layout/backgrounds";
+@import "layout/footer";
 
 // components
 @import "components/section-title";
 @import "components/logo";
 @import "components/nav";
 @import "components/step";
+@import "components/slider";
+@import "components/story";
 
-.header-view-wrapper {
-	background-image: url('./assets/img/preview-background.jpg');
-	background-position: top;
-	background-size: cover;
-}
+

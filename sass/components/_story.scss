@@ -1,0 +1,57 @@
+.story {
+	display: flex;
+	gap: 40px;
+	width: 100%;
+
+	&__photo {
+		width: 40%;
+		flex: 1 0 auto;
+		border-radius: 16px;
+		// width: 400px;
+		height: 250px;
+		max-width: 400px;
+		max-height: 250px;
+		background-size: cover;
+		background-position: center;
+		box-shadow: (0px 4px 4px $color-brand-secondary);
+
+		&_thai {
+			background-image: url("./assets/img/thai.jpg");
+		}
+
+		&_utah {
+			background-image: url("./assets/img/utah.jpg");
+		}
+		
+		&_mountains {
+			background-image: url("./assets/img/mountains.jpg");
+		}
+		&_journey {
+			background-image: url("./assets/img/journey.jpg");
+		}
+		
+	}
+
+	&__text-content {
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+	}
+
+	&__title {
+		font-size: 3.5rem;
+		line-height: 4.2rem;
+		font-weight: 400;
+	}
+
+	&__info {
+		margin: 24px 0 0 0;
+	}
+
+	&__read-more {
+		line-height: 2.4rem;
+		@extend %font-serif;
+		font-weight: 700;
+		text-decoration: underline;
+	}
+}

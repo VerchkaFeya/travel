@@ -1,3 +1,11 @@
+.story__read-more {
+  font-family: "Aleo", serif;
+}
+
+.slider .slide__title, .footer__copyright, .button {
+  font-family: "Red Hat Text", sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -36,7 +44,6 @@ button {
 }
 
 .button {
-  font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 3.175rem;
@@ -46,6 +53,7 @@ button {
   background-color: #0D606F;
   border-radius: 1rem;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  cursor: pointer;
 }
 
 .wrapper {
@@ -117,6 +125,74 @@ button {
   justify-content: space-around;
 }
 
+.destinations__button {
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+.stories__content {
+  padding: 40px 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.stories__button {
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+.background-wrapper_header {
+  background-image: url("./assets/backgrounds/background-preview.jpg");
+  background-position: top;
+  background-size: cover;
+}
+.background-wrapper_stories-and-footer {
+  background-image: url("./assets/backgrounds/background-stories.jpg");
+  background-position: top 173px right 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background-wrapper_stories {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0 0 41px 0;
+}
+
+.footer {
+  padding: 21px 0 19px 0;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer__copyright {
+  margin: 0 328px 0 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.117rem;
+  color: #fff;
+}
+.social-list {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.social-list__item {
+  display: block;
+}
+.social-list__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.social-list__svg {
+  cursor: pointer;
+}
+
 .section-title {
   display: block;
   margin: 0 auto;
@@ -171,10 +247,94 @@ button {
   text-align: center;
 }
 
-.header-view-wrapper {
-  background-image: url("./assets/img/preview-background.jpg");
-  background-position: top;
+.slider {
+  max-width: 1440px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slider__slides {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.slider__slide {
+  max-width: 800px;
+  max-height: 800px;
+  height: 800px;
+  width: 800px;
+  border-radius: 16px;
+  flex: 0 0 auto;
   background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 40px 15px;
+}
+.slider .slide {
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+.slider .slide__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.slider .slide_spain {
+  background-image: url("./assets/img/spain.jpg");
+}
+.slider .slide_japan {
+  background-image: url("./assets/img/japan.jpg");
+}
+.slider .slide_usa {
+  background-image: url("./assets/img/usa.jpg");
+}
+
+.story {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+.story__photo {
+  width: 40%;
+  flex: 1 0 auto;
+  border-radius: 16px;
+  height: 250px;
+  max-width: 400px;
+  max-height: 250px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 4px 4px #0D606F;
+}
+.story__photo_thai {
+  background-image: url("./assets/img/thai.jpg");
+}
+.story__photo_utah {
+  background-image: url("./assets/img/utah.jpg");
+}
+.story__photo_mountains {
+  background-image: url("./assets/img/mountains.jpg");
+}
+.story__photo_journey {
+  background-image: url("./assets/img/journey.jpg");
+}
+.story__text-content {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.story__title {
+  font-size: 3.5rem;
+  line-height: 4.2rem;
+  font-weight: 400;
+}
+.story__info {
+  margin: 24px 0 0 0;
+}
+.story__read-more {
+  line-height: 2.4rem;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

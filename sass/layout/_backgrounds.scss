@@ -1,0 +1,20 @@
+.background-wrapper {
+
+	&_header {
+		background-image: url('./assets/backgrounds/background-preview.jpg');
+		background-position: top;
+		background-size: cover;
+	}
+
+	&_stories-and-footer {
+		background-image: url('./assets/backgrounds/background-stories.jpg');
+		background-position: top 173px right 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&_stories {
+		background-color: rgba(255, 255, 255, 0.7);
+		padding: 0 0 41px 0;
+	}
+}

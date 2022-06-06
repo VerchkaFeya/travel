@@ -1,0 +1,56 @@
+.slider {
+
+	max-width: 1440px;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+
+	&__slides {
+		display: flex;
+		justify-content: center;
+		gap: 60px;
+	}
+
+	&__slide {
+		max-width: 800px;
+		max-height: 800px;
+		height: 800px;
+		width: 800px;
+		// width: 55%;
+		// height: auto;
+		border-radius: 16px;
+		flex: 0 0 auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 0 0 40px 15px;
+
+		
+	}
+
+	.slide {
+
+		display: flex;
+		align-items:flex-end;
+		justify-content: start;
+
+		&__title {
+			color: $color-text-light;
+			text-transform: uppercase;
+			@extend %font-sans-serif;
+			font-size: 3.2rem;
+			font-weight: 500;
+		}
+
+		&_spain {
+			background-image: url("./assets/img/spain.jpg");
+		}
+
+		&_japan {
+			background-image: url("./assets/img/japan.jpg");
+		}
+
+		&_usa {
+			background-image: url("./assets/img/usa.jpg");
+		}
+	}
+}
