@@ -70,8 +70,13 @@
 	background-color: $color-brand-main;
 	opacity: 0.5;
 	cursor: pointer;
+	@extend %transition;
 
 	&_active {
 		opacity: 1;
+	}
+
+	&:hover {
+		opacity: 0.75;
 	}
 }
