@@ -54,3 +54,24 @@
 		}
 	}
 }
+
+.slider__controls {
+	max-width: 80px;
+	margin: 24px auto 40px auto;
+	display: flex;
+	gap: 10px;
+}
+
+.slider__bar {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: $color-brand-main;
+	opacity: 0.5;
+	cursor: pointer;
+
+	&_active {
+		opacity: 1;
+	}
+}

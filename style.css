@@ -52,7 +52,7 @@ button {
   padding: 1.35rem 3.25rem 1.35rem 3.25rem;
   background-color: #0D606F;
   border-radius: 1rem;
-  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
   cursor: pointer;
 }
 
@@ -83,6 +83,9 @@ button {
   height: 41px;
   padding: 1rem 3rem 1rem 3rem;
 }
+.header__nav {
+  margin: 0 28px 0 0;
+}
 
 .preview {
   font-family: "Aleo", serif;
@@ -101,7 +104,7 @@ button {
 .preview__subtitle {
   color: #fff;
   font-style: italic;
-  margin: 0 0 46px 0;
+  margin: 32px 0 46px 0;
 }
 
 .start-planning {
@@ -122,9 +125,15 @@ button {
 .steps__steps-list {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+.destinations {
+  margin: 17px 0 0 0;
+}
+.destinations__slider {
+  margin-top: 6px !important;
+}
 .destinations__button {
   display: block;
   margin: 40px auto 0 auto;
@@ -145,7 +154,7 @@ button {
 
 .background-wrapper_header {
   background-image: url("./assets/backgrounds/background-preview.jpg");
-  background-position: top;
+  background-position: center;
   background-size: cover;
 }
 .background-wrapper_stories-and-footer {
@@ -225,6 +234,7 @@ button {
   display: flex;
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
+  font-size: 1.6rem;
 }
 .nav__item:not(:first-child) {
   padding-left: 4.2rem;
@@ -288,6 +298,26 @@ button {
 }
 .slider .slide_usa {
   background-image: url("./assets/img/usa.jpg");
+}
+
+.slider__controls {
+  max-width: 80px;
+  margin: 24px auto 40px auto;
+  display: flex;
+  gap: 10px;
+}
+
+.slider__bar {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #F2785C;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.slider__bar_active {
+  opacity: 1;
 }
 
 .story {
