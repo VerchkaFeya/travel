@@ -12,8 +12,18 @@
 		padding-left: 4.2rem;
 	}
 
-	&__link {
-		text-transform: capitalize;
-	}
+}
+
+.nav__link {
+	text-transform: capitalize;
+
+		@extend %transition;
+		&:hover {
+			color: $color-brand-secondary;
+		}
+
+		&:active {
+			color: $color-brand-main;
+		}
 
 }
