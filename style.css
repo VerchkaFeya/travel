@@ -6,7 +6,7 @@
   font-family: "Red Hat Text", sans-serif;
 }
 
-.story__read-more, .slider__bar, .nav__link, .button {
+.story__read-more, .slider__bar, .nav__link, .logo__name, .button {
   transition: all 0.3s ease-in-out;
 }
 
@@ -65,6 +65,12 @@ button {
 .button:active {
   background-color: rgba(242, 120, 92, 0.7);
   color: rgba(242, 120, 92, 0.7);
+}
+.button_arrow {
+  padding: 1.35rem 3.25rem 1.35rem 8.1rem;
+  background-image: url("./assets/icons/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center left 31px;
 }
 
 .wrapper {
@@ -239,6 +245,9 @@ button {
   font-size: 3.2rem;
   font-weight: 600;
   line-height: 3.9rem;
+}
+.logo__name:hover {
+  color: #0D606F;
 }
 
 .nav__list {

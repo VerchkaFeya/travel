@@ -21,4 +21,11 @@
 		background-color: $color-brand-main-transparent;
 		color: $color-brand-main-transparent;
 	}
+
+	&_arrow {
+		padding: 1.35rem 3.25rem 1.35rem 8.1rem;
+		background-image: url('./assets/icons/arrow-right.svg');
+		background-repeat: no-repeat;
+		background-position: center left 31px;
+	}
 }
